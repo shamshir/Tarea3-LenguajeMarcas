@@ -201,6 +201,7 @@ select:not([multiple]){
 select:not([multiple]) option{
 	background-color:black;
 	color:white;
+	padding:1%;
 }
 select[multiple]{
 	position:relative;
