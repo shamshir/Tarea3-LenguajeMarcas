@@ -7,8 +7,8 @@ El presente proyecto para la asignatura *Lenguaje de Marcas* consiste en la crea
 [Visualizar Test en Rawgit](https://rawgit.com/shamshir/Tarea3-LenguajeMarcas/master/test.html)
 
 ## Funcionamiento General
-## Código Javascript
-El código *Javascript* está organizado en 7 bloques diferenciados, con el objetivo de organizar mejor el código y que éste sea más legible. Cabe destacar que los tres apartados que empiezan por *Funciones de la...*, siguen el mismo patrón: primero encontramos un switch que dirige el código en función del tipo de pregunta (text, select, multiple, checkbox o radio) y, después, encontramos el resto de funciones a las que el switch puede llamar. Generalmente se trata de funciones específicas para cada tipo de pregunta o, en algunos casos, funciones que sirven para más de un tipo de pregunta, en cuyo caso se ha elegido un nombre descriptivo que ayuda a identificar para cuáles corresponde.
+## Código JavaScript
+El código *JavaScript* está organizado en 7 bloques diferenciados, con el objetivo de organizar mejor el código y que éste sea más legible. Cabe destacar que los tres apartados que empiezan por *Funciones de la...*, siguen el mismo patrón: primero encontramos un switch que dirige el código en función del tipo de pregunta (text, select, multiple, checkbox o radio) y, después, encontramos el resto de funciones a las que el switch puede llamar. Generalmente se trata de funciones específicas para cada tipo de pregunta o, en algunos casos, funciones que sirven para más de un tipo de pregunta, en cuyo caso se ha elegido un nombre descriptivo que ayuda a identificar para cuáles corresponde.
 
 A continuación se describen en más profundidad todos los apartados.
 ### Variables Globales
@@ -16,9 +16,11 @@ Este apartado recoge aquellas variables que serán utilizadas por todo el códig
 ### Window Onload
 El bloque Window Onload recibe este nombre porque contiene exclusivamente aquellas acciones que entran en funcionamiento una vez que la página ya ha cargado. Contiene, principalmente, el código para leer el *XML* mediante la *httpRequest* y, además, redirige el flujo del código a la sección *Funciones de la Gestión del XML* para gestionar el *XML* que ha leído.
 
-Cabe destacar que también se encuentran en este apartado las funciones de los varios botones que aparecen en la aplicación, especificando qué ocurrirá al pulsarl cada uno de ellos.
+Cabe destacar que también se encuentran en este apartado las funciones de los distintos botones que aparecen en la aplicación, especificando qué ocurrirá al pulsar cada uno de ellos.
 ### Funciones de la Gestión del XML
+Una vez tenemos ya el *XMLDoc* completo, hay que colocar toda la información en el código *HTML* y guardar las respuestas correctas en variables (arrays en este caso) de *JavaScript*. De eso se encarga este bloque, contando con un bucle principal que se repite tantas veces como preguntas haya en el *XML*. En cada una de las iteraciones, el bucle coloca el título de la pregunta y guarda la respuesta o respuestas en un array, identificado con el número de pregunta (empezando por 0). A continuación llega a un switch que ejecuta funciones específicas en función del tipo de pregunta: en las preguntas de tipo "text" no se realizará ninguna acción más, mientras que en en resto de preguntas de procederá a colocar las opciones correspondientes en el *HTML*.
 ### Funciones de la Comprobación
+Este apartado del código engloba una de las dos premisas que tienen que cumplirse para poder corregir el cuestionario: que el participante haya contestado todas y cada una de las preguntas.
 ### Funciones de la Corrección
 ### Control del Tiempo
 ### Atajos
