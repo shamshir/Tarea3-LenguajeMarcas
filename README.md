@@ -2,6 +2,8 @@
 ## Proyecto
 El presente proyecto para la asignatura *Lenguaje de Marcas* consiste en la creacción de un cuestionario de 10 preguntas que se gestione y se corrija en función de un fichero externo *XML*. En éste constarán las preguntas, las alternativas y las respuestas correctas, todo lo cual deberá ser leído por el código *Javascript* e integrado en la aplicación.
 
+Al igual que los proyectos anteriores, éste repositorio cuenta con una rama *master* y una *minify*.
+
 [Visualizar Index en Rawgit](https://rawgit.com/shamshir/Tarea3-LenguajeMarcas/master/index.html)
 
 [Visualizar Test en Rawgit](https://rawgit.com/shamshir/Tarea3-LenguajeMarcas/master/test.html)
