@@ -29,7 +29,7 @@ var nota = 0.0;
 /* -------------------------- Window Onload -------------------------- */
 
 window.onload = function(){
-	var url = "https://rawgit.com/shamshir/Prueba/master/questions.xml";
+	var url = "https://rawgit.com/shamshir/Tarea3-LenguajeMarcas/master/xml/questions.xml";
 	var xhttp = new XMLHttpRequest();
 
 	xhttp.onreadystatechange = function() {
