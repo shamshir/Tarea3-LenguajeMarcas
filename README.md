@@ -24,8 +24,9 @@ Este apartado del código comprueba una de las dos premisas que tienen que cumpl
 ### Funciones de la Corrección
 Si se cumplen las dos condiciones para poder corregir el examen (que no haya sido ya corregido y que todas las preguntas estén contestadas), esta sección de código actuará, comprobando para cada pregunta que aquellas opciones que estén seleccionadas sean las que constan como *answer* en el *XML*. Para ellos volveremos a contar con un switch, debido a que el proceso de corrección de los distintos tipos de pregunta es distinto. Después de corregir cada una de las preguntas, el código comprueba si se ha alcanzado la máxima puntuación posible en dicha pregunta. Si no se ha alcanzado, el código genera nuevos elementos *HTML* para informar de cuáles eran todas las opciones correctas de esa pregunta. A continuación, se suma la puntuación obtenida en esa pregunta a la nota global.
 
-El algoritmo para puntuar las preguntas ha sido el mismo que ha sido utilizado en el proyecto de ejemplo, proporcionado por el profesor de la asignatura: las preguntas de tipo text, selext o radio puntuan 0 o 1, dependiendo de si se ha acertado o no, y en las preguntas de tipo multiple o checkbox, de calcula el valor de cada opción acertada en función del total de opciones correctas.
+El algoritmo para puntuar las preguntas es el mismo que ha sido utilizado en el proyecto de ejemplo, proporcionado por el profesor de la asignatura: las preguntas de tipo text, selext o radio puntuan 0 o 1, dependiendo de si se ha acertado o no, y en las preguntas de tipo multiple o checkbox, se calcula el valor de cada opción acertada en función del total de opciones correctas.
 ### Control del Tiempo
+Aquí se recoge la funcion que actua de temporizador, moviendo el dinosaurio un poco más cerca de la hoguera cada segundo que pasa. El dinosaurio se
 ### Atajos
 ## Diferencias entre Versiones
 Todas las diferencias que podemos encontrar entre la versión de escritorio y la versión de móvil, se encuentran en el *CSS*, ya que se trata de cambios en la presentación y no en la funcionalidad, que es exactamente la misma para ambas versiones.
