@@ -16,4 +16,14 @@ En segundo lugar, se han eliminado en la versión móvil todos los cambios y tra
 
 En tercer lugar, se han ajustado todos los elementos para que ocupen la ayor cantidad de pantalla posible, para que el diseño sea más ergonómico y fácil de utilizar en un entorno móvil. Se han agrandado el tamaño de las partes interactivas de las preguntas y éstas se han extendido para ocupar todo el ancho de la pantalla. No obstante, se ha mantenido la organización general de los elementos en el cuestionario en sí, dejando tanto el logo en la parte superior como el dinosaurio y el fuego en la parte inferior, visibles en todo momento. Esto hace, como ya se ha comentado, que el funcionamiento de la aplicación sea el mismo, tanto en móvil como en escritorio.
 ## Código Javascript
+El código *Javascript* está organizado en 7 bloques diferenciados, con el objetivo de organizar mejor el código y que éste sea más legible. Cabe destacar que los tres apartados que empiezan por *Funciones de la...*, siguen el mismo patrón: primero encontramos un switch que dirige el código en función del tipo de pregunta (text, select, multiple, checkbox o radio) y, después, encontramos el resto de funciones a las que el switch puede llamar. Generalmente se trata de funciones específicas para cada tipo de pregunta o, en algunos casos, funciones que sirven para más de un tipo de pregunta, en cuyo caso se ha elegido un nombre descriptivo que ayuda a identificar para cuáles corresponde.
+
+A continuación se describen en más profundidad todos los apartados.
+### Variables Globales
+### Window Onload
+### Funciones de la Gestión del XML
+### Funciones de la Comprobación
+### Funciones de la Corrección
+### Control del Tiempo
+### Atajos
 ## Apartado Gráfico
