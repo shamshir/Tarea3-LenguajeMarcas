@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE questions SYSTEM "questions.dtd">
+
+<questions>
+	<question>
+		<type>text</type>
+		<title>1. ¿Qué prefijo tienen los nombres de las especies de nuestros antepasados?</title>
+		<answer>homo</answer>
+	</question>
+	<question>
+		<type>text</type>
+		<title>2. ¿Cuántos millones de años han pasado desde que se extinguieron los dinosaurios?</title>
+		<answer>65</answer>
+	</question>
+	<question>
+		<type>select</type>
+		<title>3. ¿Cuál de los siguientes simios se separó más tarde de nosotros en nuestra línea evolutiva?</title>
+		<option>Orangután</option>
+		<option>Chimpancé</option>
+		<option>Gorila</option>
+		<answer>2</answer>
+	</question>
+	<question>
+		<type>select</type>
+		<title>4. ¿En qué período vivió el Tyrannosaurus Rex?</title>
+		<option>Triásico</option>
+		<option>Jurásico</option>
+		<option>Cretácico</option>
+		<answer>3</answer>
+	</question>
+	<question>
+		<type>multiple</type>
+		<title>5. ¿Cuáles de las siguientes técnicas pertenecen a la industria lítica (herramientas de piedra)?</title>
+		<option>Galvaniense</option>
+		<option>Olduvayense</option>
+		<option>Achelense</option>
+		<option>Morfoyense</option>
+		<option>Piroyense</option>
+		<answer>1</answer>
+		<answer>2</answer>
+	</question>
+	<question>
+		<type>multiple</type>
+		<title>6. Selecciona los dinosaurios carnívoros:</title>
+		<option>Velociraptor</option>
+		<option>Spinosaurus</option>
+		<option>Triceratops</option>
+		<option>Parasaurolophus</option>
+		<option>Tarbosaurus</option>
+		<answer>0</answer>
+		<answer>1</answer>
+		<answer>4</answer>
+	</question>
+	<question>
+		<type>checkbox</type>
+		<title>7. Selecciona las afirmaciones que sean ciertas acerca del Homo Antecessor:</title>
+		<option>Se considera la especie más antigua de África</option>
+		<option>Fue descubierto en la sierra de Atapuerca</option>
+		<option>Sería el último ancestro común entre el Homo Neanderthalensis y el Homo Sapiens</option>
+		<option>Engloba a homínidos que medían menos de 1,5 metros y pesaban unos 45 kg</option>
+		<option>Vivió hace unos 900.000 años</option>
+		<answer>1</answer>
+		<answer>2</answer>
+		<answer>4</answer>
+	</question>
+	<question>
+		<type>checkbox</type>
+		<title>8. Selecciona las afirmaciones que sean ciertas acerca del Iguanodon:</title>
+		<option>Tenía un meñique alargado y flexible que podía ser usado para manipular objetos</option>
+		<option>Vivió en el período Jurásico</option>
+		<option>Fue uno de los carnívoros más pequeños</option>
+		<option>Vivió en lo que hoy en día es Europa</option>
+		<option>Pesaba menos de 500 kg</option>
+		<answer>0</answer>
+		<answer>3</answer>
+	</question>
+	<question>
+		<type>radio</type>
+		<title>9. Selecciona la opción correcta de las siguientes afirmaciones:</title>
+		<option>El Homo habilis recibe su nombre debido a su capacidad para crear herramientas y ornamentos</option>
+		<option>El descubrimiento del fuego no ha aportado nada a nuestra evolución como especie</option>
+		<option>El Homo Neanderthalensis superó en adaptación al Homo sapiens</option>
+		<answer>0</answer>
+	</question>
+	<question>
+		<type>radio</type>
+		<title>10. ¿Cuál de los siguientes dinosaurios tenía una altura mayor?</title>
+		<option>Diplodocus</option>
+		<option>Brachiosaurus</option>
+		<option>Sauroposeidon</option>
+		<answer>2</answer>
+	</question>
+</questions>

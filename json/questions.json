@@ -1,0 +1,118 @@
+{
+	"questions": {
+		"question": [
+			{
+				"type": "text",
+				"title": "1. ¿Qué prefijo tienen los nombres de las especies de nuestros antepasados?",
+				"answer": "homo"
+			},
+			{
+				"type": "text",
+				"title": "2. ¿Cuántos millones de años han pasado desde que se extinguieron los dinosaurios?",
+				"answer": "65"
+			},
+			{
+				"type": "select",
+				"title": "3. ¿Cuál de los siguientes simios se separó más tarde de nosotros en nuestra línea evolutiva?",
+				"option": [
+					"Orangután",
+					"Chimpancé",
+					"Gorila"
+				],
+				"answer": "2"
+			},
+			{
+				"type": "select",
+				"title": "4. ¿En qué período vivió el Tyrannosaurus Rex?",
+				"option": [
+					"Triásico",
+					"Jurásico",
+					"Cretácico"
+				],
+				"answer": "3"
+			},
+			{
+				"type": "multiple",
+				"title": "5. ¿Cuáles de las siguientes técnicas pertenecen a la industria lítica (herramientas de piedra)?",
+				"option": [
+					"Galvaniense",
+					"Olduvayense",
+					"Achelense",
+					"Morfoyense",
+					"Piroyense"
+				],
+				"answer": [
+					"1",
+					"2"
+				]
+			},
+			{
+				"type": "multiple",
+				"title": "6. Selecciona los dinosaurios carnívoros:",
+				"option": [
+					"Velociraptor",
+					"Spinosaurus",
+					"Triceratops",
+					"Parasaurolophus",
+					"Tarbosaurus"
+				],
+				"answer": [
+					"0",
+					"1",
+					"4"
+				]
+			},
+			{
+				"type": "checkbox",
+				"title": "7. Selecciona las afirmaciones que sean ciertas acerca del Homo Antecessor:",
+				"option": [
+					"Se considera la especie más antigua de África",
+					"Fue descubierto en la sierra de Atapuerca",
+					"Sería el último ancestro común entre el Homo Neanderthalensis y el Homo Sapiens",
+					"Engloba a homínidos que medían menos de 1,5 metros y pesaban unos 45 kg",
+					"Vivió hace unos 900.000 años"
+				],
+				"answer": [
+					"1",
+					"2",
+					"4"
+				]
+			},
+			{
+				"type": "checkbox",
+				"title": "8. Selecciona las afirmaciones que sean ciertas acerca del Iguanodon:",
+				"option": [
+					"Tenía un meñique alargado y flexible que podía ser usado para manipular objetos",
+					"Vivió en el período Jurásico",
+					"Fue uno de los carnívoros más pequeños",
+					"Vivió en lo que hoy en día es Europa",
+					"Pesaba menos de 500 kg"
+				],
+				"answer": [
+					"0",
+					"3"
+				]
+			},
+			{
+				"type": "radio",
+				"title": "9. Selecciona la opción correcta de las siguientes afirmaciones:",
+				"option": [
+					"El Homo habilis recibe su nombre debido a su capacidad para crear herramientas y ornamentos",
+					"El descubrimiento del fuego no ha aportado nada a nuestra evolución como especie",
+					"El Homo Neanderthalensis superó en adaptación al Homo sapiens"
+				],
+				"answer": "0"
+			},
+			{
+				"type": "radio",
+				"title": "10. ¿Cuál de los siguientes dinosaurios tenía una altura mayor?",
+				"option": [
+					"Diplodocus",
+					"Brachiosaurus",
+					"Sauroposeidon"
+				],
+				"answer": "2"
+			}
+		]
+	}
+}
